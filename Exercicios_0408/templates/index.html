@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Traefas</title>
+</head>
+
+<body>
+    <ul>
+        {% for tarefa in listaTarefas %}
+            <li>
+                {% if tarefa.concluida %}
+                    <s> {{ tarefa.descricao }} </s>
+                {% else %}
+                    <strong> {{ tarefa.descricao }} </strong>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+
+</html>
