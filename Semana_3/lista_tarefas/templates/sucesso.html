@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Tarefa Cadastrada</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="content">
+        <h2>Tarefa cadastrada com sucesso!</h2>
+        <p>A tarefa <strong>{{ tarefa }}</strong> foi adicionada.</p>
+        <form action="{{ url_for('index') }}">
+            <button type="submit">Voltar</button>
+        </form>
+    </div>
+</body>
+</html>
