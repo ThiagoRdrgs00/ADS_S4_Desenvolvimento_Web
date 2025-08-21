@@ -1,0 +1,29 @@
+/* Reset básico e estilos globais */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f6f8fa;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-top: 32px;
+}
+
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #e1e4e8;
+    margin: 24px 0;
+}

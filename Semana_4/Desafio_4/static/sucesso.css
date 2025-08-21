@@ -1,0 +1,57 @@
+/* Estilos para páginas específicas (sucesso, index) */
+.sucesso-container {
+    background: #fff;
+    max-width: 420px;
+    margin: 48px auto;
+    padding: 36px 32px;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(39, 174, 96, 0.08);
+    text-align: center;
+}
+
+.sucesso-container h2 {
+    color: #27ae60;
+    margin-bottom: 18px;
+}
+
+.sucesso-container p {
+    font-size: 1.1em;
+    color: #222;
+}
+
+.sucesso-container a {
+    display: inline-block;
+    margin-top: 18px;
+    color: #2980b9;
+}
+
+.index-container {
+    background: #fff;
+    max-width: 480px;
+    margin: 48px auto;
+    padding: 36px 32px;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(44, 62, 80, 0.08);
+    text-align: center;
+}
+
+.index-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 24px 0 0 0;
+}
+
+.index-container li {
+    margin: 12px 0;
+}
+
+.index-container a {
+    font-weight: bold;
+    color: #2980b9;
+    font-size: 1.1em;
+    transition: color 0.2s;
+}
+
+.index-container a:hover {
+    color: #1a5a85;
+}
